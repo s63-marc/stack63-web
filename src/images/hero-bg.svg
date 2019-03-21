@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Background Stacks</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="1024"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#024C89" stop-opacity="0.677451313" offset="0%"></stop>
+            <stop stop-color="#008CFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="-69 263 1440 254.888328 1440 918.816942 -69 1024"></polygon>
+        <polygon id="path-5" points="260 53 1596 53 1596 746.354001 260 844"></polygon>
+        <polygon id="path-6" points="-205 12 995 12 995 635.229703 -205 723"></polygon>
+        <polygon id="path-7" points="-30 -327 1440 -327 1440 296.229703 -30 384"></polygon>
+    </defs>
+    <g id="Background-Stacks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Mask"></g>
+        <g id="Rectangle" mask="url(#mask-2)">
+            <use fill="#107FDC" xlink:href="#path-4"></use>
+            <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+        </g>
+        <g id="Rectangle" mask="url(#mask-2)">
+            <use fill="#107FDC" xlink:href="#path-5"></use>
+            <use fill="url(#linearGradient-3)" xlink:href="#path-5"></use>
+        </g>
+        <g id="Rectangle" mask="url(#mask-2)">
+            <use fill="#107FDC" xlink:href="#path-6"></use>
+            <use fill="url(#linearGradient-3)" xlink:href="#path-6"></use>
+        </g>
+        <polygon id="Rectangle" fill="#107FDC" mask="url(#mask-2)" points="515 -199 1715 -199 1715 424.229703 515 512"></polygon>
+        <g id="Rectangle" mask="url(#mask-2)">
+            <use fill="#107FDC" xlink:href="#path-7"></use>
+            <use fill="url(#linearGradient-3)" xlink:href="#path-7"></use>
+        </g>
+    </g>
+</svg>

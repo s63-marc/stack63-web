@@ -6,7 +6,12 @@ $secondary-cta: #FF9B21;
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Roboto');
 
+nav {
+  background: transparent !important;
+}
+
 body {
+  font-size: 14px;
   letter-spacing: 0.04rem;
 }
 
@@ -50,6 +55,17 @@ h4 {
   span {
     color: #107FDC;
   }
+
+  &:hover {
+    background-color: transparent !important;
+    color: #fff !important;
+
+    span {
+      color: #fff;
+    }
+  }
+
+  transition: 50ms;
 }
 
 .hero {
@@ -62,16 +78,25 @@ h4 {
 }
 
 .hero-bg {
+  // background-color: $primary;
+  background: url(/assets/images/hero-bg.svg) no-repeat;
   position: absolute;
-  top: 0;
+  top: -90%;
   bottom: 0;
   right: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-color: $primary;
-  transform: skewY(-2deg);
-  transform-origin: top left;
+  height: 200%;
+}
+
+.section-stack63-process {
+  .process {
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    margin-bottom: 2rem
+  }
 }
 
 .is-secondary-cta {
